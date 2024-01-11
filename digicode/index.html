@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digicode</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="codeContainer">
+        <br>
+        <h1>Digicode</h1>
+        <br>
+        <input type="text" id="codeInput" readonly>
+        <div id="buttonContainer">
+            <!-- Création des boutons numérotés -->
+            <button onclick="addToCode(1)">1</button>
+            <button onclick="addToCode(2)">2</button>
+            <button onclick="addToCode(3)">3</button>
+            <br>
+            <button onclick="addToCode(4)">4</button>
+            <button onclick="addToCode(5)">5</button>
+            <button onclick="addToCode(6)">6</button>
+            <br>
+            <button onclick="addToCode(7)">7</button>
+            <button onclick="addToCode(8)">8</button>
+            <button onclick="addToCode(9)">9</button>
+            <br>
+            <button onclick="clearCode()">C</button>
+            <button onclick="addToCode(0)">0</button>
+            <button onclick="submitCode()">OK</button>
+        </div>
+        <div id="texte-color">
+            <h1 class="color">Saisisez votre code</h1>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

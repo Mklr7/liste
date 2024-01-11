@@ -1,0 +1,266 @@
+.navbar-brand img {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+
+.btn a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.btn a:hover {
+    color: #039BE5;
+}
+
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+#container {
+    padding-left: 5rem;
+
+}
+
+footer {
+    padding-top: 2rem;
+    background-color: #FFDB63;
+
+}
+
+#description {
+    margin: 3rem;
+}
+
+body {
+    background-color: #FFEBEE;
+}
+
+
+.card {
+    width: 400px;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+label.radio {
+    cursor: pointer;
+    width: 100%
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+label.radio span {
+    padding: 7px 14px;
+    border: 2px solid #eee;
+    display: inline-block;
+    color: #039be5;
+    border-radius: 10px;
+    width: 100%;
+    height: 48px;
+    line-height: 27px;
+}
+
+label.radio input:checked+span {
+    border-color: #039BE5;
+    background-color: #81D4FA;
+    color: #fff;
+    border-radius: 9px;
+    height: 48px;
+    line-height: 27px;
+}
+
+.form-control {
+    margin-top: 10px;
+    height: 48px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #039BE5;
+}
+
+.agree-text {
+    font-size: 12px;
+}
+
+.terms {
+    font-size: 12px;
+    text-decoration: none;
+    color: #039BE5;
+}
+
+.confirm-button {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}
+
+#search {
+    margin-right: 2rem;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.card-wrapper {
+    margin-bottom: 30px;
+}
+
+.card-image .card .card-img-wrapper {
+    height: 100%;
+}
+
+.card-image .card .card-body {
+    display: none;
+}
+
+.card-image-title-description .card .card-img-wrapper {
+    max-height: 160px;
+}
+
+.card-image-title-description .card {
+    position: relative;
+    min-height: 300px;
+}
+
+.card-image-title-description .card .card-body {
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -70px;
+}
+
+.card-image-title-description .card:hover .card-body {
+    top: -70px;
+}
+
+.card-image-title-description .card .card-body .card-title {
+    margin-bottom: .75rem;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: 100%;
+}
+
+.card:hover {
+    box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+
+.card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+}
+
+.card-img-wrapper img {
+    transition: 1.5s ease;
+}
+
+.card:hover .card-img-wrapper img {
+    transform: scale(1.15);
+}
+
+.card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+}
+
+.card:hover .card-body .card-title {
+    margin-bottom: .75rem;
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: #fff;
+    transition: 1.5s ease;
+}
+
+.card-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: 1.5s ease;
+}
+
+.card:hover .card-body {
+    height: 80%;
+}
+
+.card:hover .card-content {
+    bottom: 0;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #ECE9E6, #FFFFFF);
+}
+
+#search {
+    margin-right: 2rem;
+}
+
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
